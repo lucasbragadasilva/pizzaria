@@ -1,0 +1,434 @@
+*{margin:0px; padding:0px;}
+
+body{
+	background-color:#eee;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#000;
+	}
+	
+p{
+	margin:0px;
+	padding:0px;
+	}
+	
+#topo{
+	width:1200px;
+	height:125px;
+	/*background-color:#999;*/
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	/* alinhar centro */
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.topo_img{
+	width:170px;
+	height:105px;
+	
+	margin-top:5px;
+	margin-left:10px;
+	}	
+	
+#expande_menu{
+	width:100%;
+	height:40px;
+	
+	}		
+	
+#menu{
+	width:1200px;
+	height:40px;
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	/* alinhar centro */
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+#menu ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+	
+#menu ul li{
+	display:inline;	
+	}
+	
+#menu ul li a{
+	text-decoration:none; 
+	color:#000;
+	font-weight:700;
+	font-size:15px;
+	display:inline-block;
+	padding:11px 40px; 
+	
+	/* Transição dos efeitos */
+	transition-property:all;
+	transition-duration:0.3s;	
+	}				
+	
+/* ao passar o mouse*/
+#menu ul li a:hover{
+	background-color:#A70000;
+	color:white;
+	
+	/* Transição dos efeitos */
+	transition-property:all;
+	transition-duration:0.3s;
+	}
+	
+#slide{
+	width:1200px;
+	height:400px;
+	background-color:#999;
+	
+	margin-bottom:20px;
+	/* alinhar centro */
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+#informacoes{
+	width:1200px;
+	height:350px;
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	/* alinhar centro */
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.titulo_info{
+	font-size:14px;
+	font-weight:bold;
+	width:80%;
+	height:20px;
+	margin-left:51px;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+	
+.titulo_info1{
+	font-size:14px;
+	font-weight:bold;
+	width:80%;
+	height:20px;
+	margin-left:20px;
+	margin-top:5px;
+	margin-bottom:5px;
+	}		
+	
+#info1{
+	width:350px;
+	height:350px;
+	margin-bottom:0px;
+	margin-top:0px;
+	float:left;
+	}
+	
+#nossoambiente{
+	width:320px;
+	height:310px;
+	
+	margin-left:10px;
+	float:left;
+	
+	background-color:white;
+	border-radius:10px;
+	}
+	
+.nossoambiente_img{
+	width:298px;
+	height:199px;
+	
+	margin-left:10px;
+	margin-top:5px;
+	}	
+	
+.txtnossoambiente{
+	width:286px;
+	height:52px;
+	float:left;
+	margin-top:7px;
+	margin-left:10px;	
+	}
+	
+.saibamais{
+	width:90px;
+	height:10px;
+	
+	margin-right:15px;
+	margin-bottom:10px;
+	
+	float:right;
+	font-size:10px;
+	font-weight:bold;
+	color:#000;
+	}	
+	
+.saibamais a{
+	text-decoration:none;
+	transition-property:all;
+	transition-duration:1s;
+	color:#000000;	
+	}
+.saibamais a:hover{
+	transition-property:all;
+	transition-duration:0.2s;
+	color:#A70000;
+	}			
+	
+#info2{
+	width:500px;
+	height:350px;
+	margin-bottom:0px;
+	margin-top:0px;
+	float:left;
+	}
+	
+#nossaspizza{
+	width:500px;
+	height:150px;
+	border-bottom:solid 1px #999;
+	
+	float:left;
+	}
+	
+#nossaspizza1{
+	width:500px;
+	height:150px;
+	
+	float:left;
+	}		
+	
+.nossaspizzas_img{
+	margin-top:6px;
+	margin-left:5px;
+	margin-right:20px;
+	
+	width:160px;
+	height:122px;
+	float:left;
+	
+	border:solid 8px #fff;
+	border-radius:5px;
+	}
+	
+.titulonossaspizza{
+	margin-top:15px;
+	margin-bottom:15;
+	margin-left:20;
+	
+	color:#F00;
+	
+	width:240px;
+	height:15px;
+	float:left;	
+	}
+	
+.btnpizza{
+	width:100px;
+	height:25px;
+	
+	margin-right:50px;
+	margin-top:10px;
+	float:right;
+	
+	color:white;
+	font-size:12px;
+	text-align:center;
+	background-color:#467C21;
+	border-radius:3px;
+	padding-top:7px;
+	font-weight:500;
+	
+	/* Transição dos efeitos */
+	transition-property:all;
+	transition-duration:1s;
+	}
+	
+.btnpizza:hover{
+	background-color:#C00;
+	color:white;
+	
+	/* Transição dos efeitos */
+	transition-property:all;
+	transition-duration:0.2s;
+	cursor:pointer;
+	}				
+	
+.txtnossaspizza{
+	width:245px;
+	height:40px;
+	
+	font-size:12px;
+	font-weight:bold;
+		
+	margin-top:10px;	
+	float:left;	
+	}		
+	
+#info3{
+	width:350px;
+	height:350px;
+	margin-bottom:0px;
+	margin-top:0px;
+	float:left;
+	}
+	
+.promocoes_img{
+	margin-top:10px;
+	margin-left:51px;
+	
+	width:247px;
+	height:215px;
+	float:left;
+	}				
+	
+#rodape{
+	width:1200px;
+	height:60px;
+	background-color:#A70000;
+	
+	padding-top:10px;
+	
+	/* alinhar centro */
+	margin-left:auto;
+	margin-right:auto;
+	}	
+	
+.rodapetxt{
+	width:100%;
+	height:20px;
+	text-align:center;
+	
+	font-size:13px;
+	color:#fff;
+	}
+	
+.rodapetxt a{
+	color:white;
+	}		
+	
+#conteudo{
+	width:1080px;
+	height:830px;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+.nav{
+	width:90%;
+	height:15px;
+	font-size:11px;
+	margin-bottom:15px;
+	}
+
+.nav a{
+	text-decoration:none;
+	color:#ccc;
+	}
+
+.nav a:hover{
+	text-decoration:underline;
+	color:#A70000;
+	}
+
+.tituloPages{
+	font-size:18px;
+	color:#A70000;
+	width:95%;
+	height:25px;
+	border-bottom:solid 1px #ccc;
+	margin-bottom:15px;
+	}
+
+.conteudo_esquerdo {
+	float:left;
+	height:600px;
+	width:600px;
+	text-align:justify;
+	font-size:14px;
+	}
+<!-- Page Contatos -->
+.conteudo_esquerdo ul {
+	margin-left:50px;
+	}
+
+.conteudo_esquerdo ul li {
+	line-height:30px;
+	border-bottom:dashed 1px #fff;
+	}
+
+.conteudo_direito {
+	float: right;
+	height: 600px;
+	width: 410px;
+	text-align:center;
+	}
+
+.titulo_conteudo_direito{
+	font-size:18px;
+	color:#A70000;
+	width:90%;
+	height:20px;
+	margin-top:5px;
+	margin-bottom:15px;
+	padding-bottom:5px;
+	margin-left:10px;
+	border-bottom:solid 1px #666;
+	}
+
+.conteudo_direito img {
+	border:solid 5px #fff;
+	border-radius:5px;
+	}	
+	
+.btn_contato{
+	width:100px;
+	height:40px;
+	float:right;
+	margin-top:15px;
+	margin-left:10px;
+	
+	color:white;
+	border:0px;
+	font-size:20px;
+	font-style:italic;
+	text-align:center;
+	background-color:#467C21;
+	border-radius:5px;
+	padding-top:5px;
+	font-weight:500;
+	
+	/* Transição dos efeitos */
+	transition-property:all;
+	transition-duration:1s;
+	}
+	
+.btn_contato:hover{
+	background-color:#A70000;
+	
+	/* Transição dos efeitos */
+	transition-property:all;
+	transition-duration:0.2s;
+	cursor:pointer;
+	}		
+	
+.tituloPages{
+	font-size:18px;
+	color:#A70000;
+	width:95%;
+	height25p;
+	border-bottom:solid 1px #ccc;
+	margin-bottom:15px;
+	}	
